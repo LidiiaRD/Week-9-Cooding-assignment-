@@ -1,0 +1,47 @@
+/* Global */
+.selector-for-some-widget {
+   box-sizing: content-box;
+}
+
+/* Slider */
+.carousel-inner,
+.carousel-item {
+   height: 100hv;
+}
+
+.carousel-item img {
+   height: 100%;
+   object-fit: cover;
+}
+
+.carousel-caption {
+   text-align: center;
+}
+
+/*Products */
+.card-item img {
+   width: 100%;
+   height: 300px;
+   object-fit: cover;
+}
+
+.list-group {
+   display: flex;
+   flex-direction: md-column;
+   flex-direction: sm-row;
+}
+
+
+/* Promotions */
+.promotions-item img {
+   height: 100%;
+   object-fit: cover;
+}
+
+.card-body {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+}
